@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: luck_king
+      POSTGRES_USER: luck_king
+      POSTGRES_PASSWORD: luck_king_local
+    ports:
+      - "5432:5432"
+    volumes:
+      - luck_king_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U luck_king -d luck_king"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  luck_king_postgres:

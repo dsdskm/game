@@ -1,0 +1,4 @@
+:root { font-family: "IBM Plex Sans KR", "Apple SD Gothic Neo", sans-serif; color: #17243a; background: #f4f6f9; font-synthesis: none; text-rendering: optimizeLegibility; }
+* { box-sizing: border-box; letter-spacing: 0; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, select { font: inherit; }
