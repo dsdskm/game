@@ -1,0 +1,18 @@
+{
+  "name": "@yes-or-no/question-bank",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@yes-or-no/shared": "workspace:*"
+  }
+}

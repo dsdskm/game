@@ -1,0 +1,9 @@
+node_modules/
+.next/
+dist/
+apps/server/data/
+*.tsbuildinfo
+.env*
+!.env.example
+cert/
+docs/securityMail.html

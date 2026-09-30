@@ -1,1 +1,2 @@
-# game
+# 복호화 키
+C0ptM068L51eiDWIKF90BFPoRyj+b3pg38Q6reESALg=
